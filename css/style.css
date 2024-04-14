@@ -1,0 +1,905 @@
+/* Common Css Start */
+:root {
+    --highlight-color: #8484bf;
+    --primary-color: #0f2f44;
+    --light-color: #fefefe;
+    --hover-color: #ffc712;
+    --icon-color: #999999;
+    --text-color: #444444;
+    --border-color: #dedede;
+    --hover-background: #fff9e6;
+    --heading-font: "Abril Fatface", serif;
+    --secondary-font: "Ubuntu", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    font-family: var(--body-font);
+}
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    font-family: var(--secondary-font);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.w-50 {
+    width: 50%;
+}
+.w-33 {
+    width: calc(100% / 3);
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+/* =============== Common Section Css Start =============== */
+
+
+section h6{
+
+    font-size: 14px ;
+    font-family: var(--secondary-font) ;
+    color: var(--primary-color);
+    font-weight: normal;
+    
+
+}
+section h2{
+
+    font-size: 32px ;
+    font-family:var(--heading-font) ;
+    color: var(--primary-color);
+    font-weight: normal;
+    
+    
+
+}
+section p{
+
+    font-size: 16px ;
+    font-family:var(--body-font) ;
+    color: var(--primary-color);
+    line-height: 24px;
+    font-weight: normal;
+    margin: 15px 0;
+    
+    
+}
+/* =============== Common Section Css End =============== */
+
+
+/* Common Css End */
+
+/* =========== Top Bar Section Css Start =========== */
+#top_bar {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: var(--secondary-font);
+}
+#top_bar p {
+
+    line-height: 24px;
+    padding: 13px 0;
+}
+/* =========== Top Bar Section Css End =========== */
+
+/* =========== Nav Section Css Start =========== */
+#nav .menu ul li a {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 35.5px 19px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#nav .menu ul li button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    color: var(--icon-color);
+    background: none;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+#nav .menu ul li a:hover,
+#nav .menu ul li button:hover {
+    color: var(--hover-color);
+    background-color: var(--hover-background);
+}
+/* =========== Nav Section Css End =========== */
+
+/* =========== Hero Section Css Start =========== */
+#hero {
+
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#hero .inner_container {
+
+    width: 40%;
+
+}
+#hero h3{
+
+    font-size: 50px;
+    line-height: 70px;
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: lighter;
+    
+}
+#hero h1{
+
+    font-size: 80px;
+    line-height: 70px;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+}
+#hero h4{
+
+    font-size: 32px;
+    line-height: 24px;
+    color: var(--highlight-color);
+    font-family: var(--secondary-font);
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    display: block;
+    text-transform: capitalize;
+}
+#hero p{
+
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-weight: normal;
+    width: 111%;
+    margin: 10px 0;
+    display: block;
+}
+
+
+#hero a {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--light-color);
+    background-color: var(--highlight-color);
+    display: inline-block;
+    padding: 12.5px 21px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+#hero a:hover {
+    background-color: var(--light-color);
+    color: var(--highlight-color);
+}
+#hero button {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    border: none;
+    color: var(--highlight-color);
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+#hero button:hover {
+    background-color: var(--highlight-color);
+    color: var(--light-color);
+}
+
+/* =========== Hero Section Css End =========== */
+
+
+/* =============== About Section Css Start =============== */
+
+#about{
+
+    padding: 80px 0;
+}
+
+.about_list ul li{
+
+    font-size: 16px ;
+    font-family:var(--body-font) ;
+    color: var(--primary-color);
+    line-height: 44px;
+    font-weight: normal;
+    padding: 0 30px;
+    display: block;
+    
+}
+.about_link a:first-child{
+
+    font-size: 20px;
+    line-height: 44px;
+    font-weight:500;
+    color: var(--primary-color);
+    background: var(--hover-color);
+    padding: 0 23px;
+    margin-top: 20px;
+    display:inline-block;
+    border-radius: 5px;
+    transition: .4s;
+}
+.about_link a:hover{
+
+    color: var(--light-color);
+    background: var(--primary-color);
+    
+}
+.about_link a:last-child{
+
+    font-size: 20px;
+    line-height: 44px;
+    font-weight:500;
+    color: var(--primary-color);
+    padding: 0 23px;
+    margin-top: 20px;
+    display:inline-block;
+    transition: .4s;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 11px #727272, -5px -5px 11px #ffffff;
+
+}
+.about_link a:last-child:hover{
+
+    box-shadow:  5px 5px 11px #ffffff, -5px -5px 11px #727272;
+    
+}
+
+/* =============== About Section Css End =============== */
+
+
+/* =============== Skill Section Css Start =============== */
+
+#skill{
+
+    padding: 100px 0;
+}
+
+.skill_img{
+
+    width: 60%;
+}
+.skill_info{
+
+    width: 39%;
+}
+.skill_wrapper{
+
+    width: 100%;
+   margin-left: auto;
+}
+.skill_card{
+
+    margin-bottom: 23px;
+}
+.skill_card .skill_Card_info{
+
+    width: 80%;
+}
+.skill_card .skill_Card_info h3{
+
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    line-height: 44px;
+    color: var(--primary-color);
+
+}
+
+.skill_card .skill_Card_icon{
+
+    width: 20%;
+    
+}
+.skill_card .skill_Card_icon img{
+
+    display: block;
+    margin-left: auto;
+    border: 15px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 15px 33px #727272 ;
+}
+.skill_tarck{
+
+    background: #dddddd;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+
+}
+.skill_bar{
+  
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    text-align: left;
+
+}
+.skill_bar span{
+
+    display: inline-block;
+    transform: translateY(-40px);
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: bold;
+
+}
+/* =============== Skill Section Css End =============== */
+
+/* =============== Survices Section Css Start =============== */
+#services{
+
+    padding: 60px 0;
+    background: #f5f5f5;
+}
+.services_info{
+    
+    text-align: center;
+}
+.service-card_container{
+
+    margin-top: 55px;
+    gap: 30px;
+}
+.service-card{
+
+    background:#e9e9e9;
+    width: calc((100% - 60px) / 3);
+    position: relative;
+    border-radius: 5px;
+
+}
+.service-card .service_card_icon{
+
+    width: 100px;
+    text-align: center;
+    
+} 
+.service-card .service_card_info{
+
+    width: calc(100% - 100px);
+    background:  #eeeeee;
+    padding: 29px 20px;
+    
+} 
+.service-card .service_card_info h3{
+
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+}
+
+.service-card .service_card_info p{
+
+    font-family: var(--body-font);
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 24px;
+   
+}
+.service-card .overlay{
+
+    position: absolute;
+    background: var(--primary-color);
+    inset: 0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    transform: scale(0);
+    transition: .5s;
+}
+.service-card:hover .overlay{
+
+    transform: scale(1);
+}
+.service-card .overlay h3{
+
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--light-color);
+    font-weight: 600;
+    padding-top: 20px;
+}
+.service-card .overlay a{
+    color: var(--primary-color);
+    background: var(--hover-color);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+
+
+
+
+
+
+/* =============== Survices Section Css End =============== */
+
+
+/* =============== Portfolio Section Css Start =============== */
+
+
+#portfolio{
+
+    padding: 100px 0;
+}
+#portfolio .portfolio_info{
+
+    text-align: center;
+   
+}
+.portfolio_card_container{
+    
+    margin-top: 55px;
+    gap: 60px;
+}
+.portfolio_card .portfolio_card_img {
+
+    width: calc(100 / 3);
+    
+}
+.portfolio_card{
+
+    margin: auto;
+    position: relative;
+    
+   
+}
+.portfolio_card .overlay{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    transform: scale(0);  
+    transition: .5s;
+    transform-origin: bottom;
+
+   
+}
+.portfolio_card:hover .overlay{
+
+    transform: scale(1);
+    box-shadow:  5px 5px 11px #727272;
+    
+} 
+.portfolio_card .overlay h3{
+
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+
+}
+.portfolio_link{
+
+    margin: auto;
+}
+.portfolio_link a{
+
+    font-size: 20px;
+    line-height: 44px;
+    font-weight:500;
+    color: var(--primary-color);
+    background: var(--hover-color);
+    padding: 0 23px;
+    display:inline-block;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+.portfolio_link a:hover{
+
+    color: var(--light-color);
+    background: var(--primary-color);
+    
+}
+/* =============== Portfolio Section Css End =============== */
+
+
+/* =============== Tesimonial Section Css Start =============== */
+#testimonial{
+
+    padding: 61px 0;
+    background: #f5f5f5;
+}
+.testimonial_info{
+
+    text-align: center;
+}
+.testimonial_card_container{
+
+    gap: 30px ;
+    margin-top: 60px;
+}
+.testimonial_card{
+
+    width: calc((100% - 30px) / 2);
+}
+.testimonial_card .testimonial_card_img {
+
+    width: 215px;
+    
+}
+.testimonial_card .testimonial_card_img img{
+
+    display: block;
+}
+.testimonial_card .testimonial_card_info{
+
+    width: calc(100% - 215px);
+    background: #e9e9e9;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    
+}
+.testimonial_card .testimonial_card_info p{
+
+    
+    font-family: var(--body-font);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.testimonial_card .testimonial_card_info h3{
+
+    
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.testimonial_card .testimonial_card_info h6{
+
+    
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+
+/* =============== Tesimonial Section Css End =============== */
+
+/* =============== Blog Section Css Start =============== */
+#blog{
+
+    padding: 100px 0;
+}
+.blog_info{
+
+    text-align: center;
+
+}
+.blog_card_container{
+    
+    margin-top: 55px;
+   
+}
+.blog_card_container .blog_card{
+
+    width: calc((100% / 3) - 60px);
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin: auto;
+    
+    padding: 15px;
+    transition: .5s;
+    
+}
+.blog_card_container .blog_card:hover{
+
+    
+    background: var(--primary-color);
+    
+    
+    
+}
+.blog_card .blog_card_img{
+
+    width: 300px;
+    
+}
+.blog_card .blog_card_img img{
+
+    
+   width: 100%;
+
+}
+
+.blog_card .blog_card_info > h6{
+
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px ;
+    color: #777777;
+
+}
+.blog_card:hover .blog_card_info h6{
+
+    color: #fff;
+}
+.blog_card .blog_card_info p{
+
+    font-size: 20px;
+    line-height: 26px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    color: #222222;
+    width: 80%;
+    
+}
+
+.blog_card:hover .blog_card_info p{
+
+    color: #fff;
+}
+
+.more_info{
+
+    align-items: center;
+    
+}
+.more_info h6{
+
+    color: #777777;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--secondary-font);
+}
+.more_info a i{
+
+    color: #777777;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.blog_card:hover .blog_card_info .more_info a i{
+
+    color: #fff;
+}
+
+
+/* =============== Blog Section Css End =============== */
+
+/* =============== Contact Section Css Start =============== */
+#contact{
+
+    padding: 100px 0;
+    box-shadow: 5px 5px 20px #727272;
+}
+.contact_container{
+
+    margin-top: 55px;
+    gap: 30px;
+}
+.contact_container .contact_card{
+
+    width: calc((100% / 4) - 50px);
+    margin: auto;
+    display: inline-block;
+    margin-top: 0;
+    
+    
+}
+
+.contact_container .info p{
+
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.contact_container .contact_card .icon button{
+
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: none;
+    transition: 0.4s;
+    margin-right: 10px;
+    
+}
+.contact_container .contact_card .icon button:hover{
+
+   
+    background: var(--primary-color);
+    color: #f1f3f4;
+    
+}
+.contact_container .contact_card h3{
+
+    font-family: var(--secondary-font);
+    color: #444444;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    
+}
+
+.contact_container .contact_card .addrs{
+
+    padding-top: 30px;
+}
+.contact_container .contact_card .addrs i{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    width: 10%;
+    
+}
+.contact_container .contact_card .addrs address{
+
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+}
+.contact_container .contact_card .email i{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    width: 10%;
+}
+.contact_container .contact_card .email p{
+
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+}
+.contact_container .contact_card .phone i{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    width: 10%;
+}
+.contact_container .contact_card .phone p{
+
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    
+}
+.contact_container .list .li{
+
+   padding-top: 30px;
+   
+
+}
+.contact_container .list ul li a{
+
+    color: #222222;
+    font-family: var(--body-font);
+    font-size: 14px;
+    line-height: 37px;
+    font-weight: 600;
+    transition: .5s;
+ 
+}
+.contact_container .list ul li a:hover{
+
+    padding-left: 19px ;
+    color: var(--primary-color);
+ 
+}
+.contact_container .contact_card .inner_img{
+
+    padding-top: 30px;
+    
+    
+}
+.contact_container .contact_card .inner_img img{
+
+   width: 24%;
+   display:inline-block;
+   
+}
+
+/* =============== Contact Section Css End =============== */
+
+/* =============== Footer Section Css Start =============== */
+#footer{
+
+    padding: 21px 0;
+    background: #f8f8f8;
+}
+.footer_info p{
+
+    text-align: center;
+    font-family: var(--body-font);
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 19px;
+}
+.footer_info a{
+
+    color: var(--hover-color);
+}
+/* =============== Footer Section Css End =============== */
